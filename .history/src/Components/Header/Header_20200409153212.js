@@ -47,7 +47,6 @@ export default class Header extends Component {
     this.setState({username: '', password: ''})
     alert(err.response.request.response)
   })
-}
 
   logout() {
     // axios GET to /auth/logout here
