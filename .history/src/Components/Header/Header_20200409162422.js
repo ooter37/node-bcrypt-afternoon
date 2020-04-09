@@ -65,7 +65,6 @@ export default class Header extends Component {
     .then(() => {
       this.props.updateUser({})
     })
-    .catch(err => console.log(err))
   }
 
   render() {
