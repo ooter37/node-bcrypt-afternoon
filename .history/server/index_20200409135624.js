@@ -23,8 +23,12 @@ massive(CONNECTION_STRING).then(db => {
     app.set('db', db)
 })
 
+
+
+
+
+
+
 app.listen(SERVER_PORT, () => {
     console.log(`server listening on port ${SERVER_PORT}`)
 })
-
-app.post('/auth/register', authCtrl.register)
